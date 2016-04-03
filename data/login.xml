@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<login xmlns="http://www.login.com" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://www.login.com login.xsd">
+	<utente>
+		<username>rossi</username>
+		<mail>rossi@gmail.com</mail>
+		<password>rossi#3</password>
+	</utente>
+</login>

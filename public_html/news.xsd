@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portoconte1.it" targetNamespace="http://www.portoconte1.it" elementFormDefault="qualified">
+
+	<xsd:element name="notizie" type="articoli"/>
+	<xsd:complexType name="articoli">
+				<xsd:sequence maxOccurs="unbounded">
+					<xsd:element name="notizia" type="articolo"/>
+				</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="articolo">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:string"/>
+			<xsd:element name="titolo" type="xsd:string"/>
+			<xsd:element name="data" type="xsd:string"/>
+			<xsd:element name="img" type="xsd:string"/>
+			<xsd:element name="alt_img" type="xsd:string"/>
+			<xsd:element name="corpo" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>		
+
+</xsd:schema>

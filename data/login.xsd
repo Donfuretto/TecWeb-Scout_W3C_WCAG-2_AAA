@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.login.com" targetNamespace="http://www.login.com" 
+elementFormDefault="qualified">
+
+	<xs:element name="login" type="Tl" />
+	
+	<xs:complexType name="Tl">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="utente" type="Tu" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Tu">
+		<xs:sequence>
+			<xs:element name="username" type="xs:string" />
+			<xs:element name="mail" type="xs:string" />
+			<xs:element name="password" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

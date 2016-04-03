@@ -1,0 +1,459 @@
+*{
+       font-family: "Verdana", Geneva, sans-serif;    
+}
+
+body
+{ 
+    background-color: #d9d7d7;
+    max-width: 75em;
+    margin-right: auto;
+    margin-left: auto; 
+    font-size: 0.9em;
+}
+
+
+a:link { color:  #0000FF; }
+
+a:visited { color: #000066; }
+
+a:hover { color: #000066; }
+
+
+#header
+{
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 1.4%;
+}
+
+.social
+{ 
+    position: relative;
+    float: right;
+    left: -15px;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.HeaderIMG
+{
+    float: left !important;
+    width: 20em;
+    max-width: 110px;
+    display: block;
+    padding: 0.2em 0em 0em 0.3em;
+    overflow: hidden;
+    margin-right: 1%;
+}
+
+
+#subhead
+{
+    border-radius: 10px 10px 0px 0px;
+    color: #FFFFFF;
+    padding: 7px 0px 7px 15px;
+    font-size: 1.1em;
+    background: -webkit-linear-gradient(#073E62, #0A5A8C, #0A5A8C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#073E62, #0A5A8C, #0A5A8C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#073E62, #0A5A8C, #0A5A8C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#073E62, #0A5A8C, #0A5A8C); /* Standard syntax (must be last) */
+}
+
+#subhead a
+{
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+
+.help_nav
+{
+    position: relative;
+    left: -999999px;
+}
+
+
+#container
+{
+    border-radius: 15px 15px 15px 15px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 7px 20px 1px black
+}
+
+
+#menu{
+    
+    background: #F3F3F3;
+    width: 15%;
+    float: left;
+    font-size: 1.2em;
+    overflow: hidden;
+    height: auto;
+    text-align: center; 
+   
+}
+
+#menu h1{
+    font-size: 1em;
+    margin-top: 25px;
+}
+
+#menu ul 
+{
+    position: relative;
+    left: -20px;
+    list-style-type: none;
+}
+
+
+
+
+#menu ul li {
+    margin-top: 5px;
+    padding: 0.2em 0.3em 0.2em 0.3em;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+    
+}
+
+#menu ul li a {
+    display: block;
+    border: #0A5A8C 2px solid;
+    background-color:#0A5A8C;
+    border-color: #073E62;
+   
+    border-radius: 5px; 
+    border-spacing: 0.2em;
+    width: 95%;
+    text-align: center;
+     
+    
+}
+
+#menu ul li a:link{
+    color: #FFFFFF;
+}
+
+#menu ul li a:visited{
+    color: #FFFFFF;
+    
+
+
+
+}
+
+#menu ul li a:hover{
+    color: #410E82;
+    background-color: #F5C114;
+    transition: 0.5s;
+}
+
+
+
+
+
+#menu .currentlink  {
+    background-color:#F3F3F3 !important;
+    border-color: #073E62;
+    border-radius: 5px; 
+    text-decoration: none;
+    border: #0A5A8C 2px solid;
+}
+
+
+
+#iscrizioni
+{
+    background: #FFFFFF;
+    width: 20%;
+    float: right;
+    padding: 0em 0.5em 0em 0.5em;
+    margin-right: 1.6%;
+    margin-top: 1.5%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #b23524;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.IscrizioniIMG
+{
+    width: 100%;
+    display: block;
+    margin-top: 3%;
+}
+
+#news
+{
+    background: #F3F3F3;
+    width: 21.6%;
+    float: right;
+    padding: 0em 0.5em 0em 0.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.date
+{
+    display: block;
+    font-size:0.75em;
+    text-align: left;
+}
+
+.text_line {
+   
+    text-align: center;
+    clear: right;
+    margin-bottom: 2px;
+}
+
+.text_line h2{
+    font-size: 1em;
+}
+
+ins {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.box_content
+{
+    border-radius: 0px 0px 10px 10px;
+    background-color: #F3F3F3;
+    margin: 0px;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: #d9d7d7;
+    border-top: none;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.continua{
+    text-align: right;
+}
+
+
+#patto{
+    text-align: center;
+    clear: right;
+    margin-bottom: 2px;
+}
+
+
+
+
+#corpo
+{
+    min-height: 40em;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFFFFF;
+    padding: 1em 1em 1em 1em;
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    line-height: 1.5em;
+    font-size: 1em;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 0.15em;
+    border-color: #d9d7d7;
+    
+}
+
+.lista
+{
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+h1{
+    font-size: 1.5em;
+}
+
+.TopTesto
+{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.LogoDivisione
+{
+    float: left;
+    width: 15%;
+    display: block;
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.IMGnews
+{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.box_title
+{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0A5A8C;
+    color: #fff;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;   
+}
+
+.box_patto
+{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0A5A8C;
+    color: #fff;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    font-weight: bold;
+    text-align: left;   
+}
+
+.continua
+{
+    float: right;
+    padding: 0px 5px 10px 0px;
+}
+
+.box_news
+{
+    background-color: #F3F3F3;
+    margin: 0;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: #d9d7d7;
+    overflow: hidden;
+    padding: 0px 15px 0px 15px;
+    font-size: 1em;
+    
+}
+
+.textarea
+{
+    margin: 2px; 
+    height: 33em;
+    width: 35em; 
+    max-width: 35em;
+}
+
+table{
+
+     border-spacing: 0.2em;
+    text-align: center;
+      
+}
+
+.center
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table td{
+    padding 7px;
+    
+}
+
+table th{
+    border: #0A5A8C 2px solid;
+  }
+
+table tr{
+    border:#0A5A8C 2px solid; 
+   
+}
+
+
+.dispari{
+    background-color: #6495ED
+}
+
+.pari{
+    background-color: #00BFFF;
+   }
+
+table caption{
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    font-weight: bold;
+    color: #0A5A8C;
+}
+
+.corpoIMG{
+    max-width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#foot 
+{
+    background-color: #0A5A8C;
+    color: #FFFFFF;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    clear: both;       
+    font-size: 0.8em;
+    text-align: left;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.contatti_tel
+{
+   line-height: 1.7em; }
+
+
+
+#foot a {
+    font-family: arial;
+    font-weight:bold;
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+
+#foot a:hover{
+    color:#410E82;
+    background-color: #F5C114;
+}
+
+#test{
+    width:40em;
+    overflow:hidden;
+    word-wrap:break-word;  
+}

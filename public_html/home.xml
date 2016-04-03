@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="home.xsl"?>
+<h:notizie xmlns="http://www.portoconte1.it" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xmlns:h="http://www.portoconte1.it" xsd:schemaLocation="http://www.portoconte1.it home.xsd">
+    
+    
+     
+    
+          
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	<notizia>
+      	<id>1</id>
+      	<titolo>La tenda di Abramo, nel cuore della citta</titolo>
+      	<data>2015-02-08</data>  
+      	<oggetto>Nel cuore di Porto Conte fa capolino la tenda di Abramo, che ospiterà una lettura collettiva e cont</oggetto>
+      
+	</notizia>
+
+	<notizia>
+      	<id>2</id>
+      	<titolo>Ritrovo con i Capi</titolo>
+      	<data>2015-02-08</data>  
+      	<oggetto>Lunedì 23 febbraio i capi si raduneranno per organizzare tutti gli eventi che si terranno durante i</oggetto>
+      
+	</notizia>
+
+	<notizia>
+      	<id>3</id>
+      	<titolo>Salviamo i Panda – Branco Frate Fuoco</titolo>
+      	<data>2015-02-08</data>  
+      	<oggetto>Il direttore dell’oasi ha fatto imprigionare la biologa Marie dalle guardie di sicurezza, e si inc</oggetto>
+      
+	</notizia>
+</h:notizie>

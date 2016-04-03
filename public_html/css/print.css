@@ -1,0 +1,131 @@
+*{
+    font-family: "Times new roman", Times, sans-serif;  
+}
+
+
+#header{
+    display: block;
+}
+
+
+
+#Header h1{
+    font-size: 2em;
+    
+}
+
+#Header h2{
+    font-size: 1.8em;
+    
+}
+
+.HeaderIMG
+{
+    float: left !important;
+   max-width:15%;
+}
+
+.social{
+    display: none;
+}
+
+.help_nav{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
+#iscrizioni{
+    display: none;
+}
+
+ 
+
+.box_title{
+    font-size: 16pt;
+    text-align: left;
+    padding-top: 0.5em;
+
+}
+
+.date{
+    font-size: 14pt;
+    word-wrap: break-word !important;
+    text-decoration: none;
+    padding-left: 2em;
+    
+}
+
+.box_content{
+    font-size: 12pt;
+    padding-bottom: 1em;
+}
+
+.lista{             
+    list-style-type: none !important;
+}
+
+.lista h2{
+    font-size: 18pt;
+}
+
+.LogoDivisione{
+    float: left;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.new_page{
+    page-break-before: always;
+}
+
+.IMGnews{
+   width: 20%;
+}
+
+
+.corpoIMG{
+    width: 30%;
+    height: 40%
+}
+
+table{
+    text-align: center;
+}
+
+table th{
+    border: #000000 1px solid;
+}
+
+table td{
+    border: #000000 1px solid;
+}
+
+.patto{
+    display: none;
+}
+
+#black_box{
+    display: none;
+}
+
+
+.valid{
+    display: none;
+}
+
+a:link{
+	color:#000000;
+	text-decoration:none;
+}
+
+a:visited {color:#000000;
+	text-decoration:none; }
+
+a:hover { color:#000000;
+	text-decoration:none; }
+
+

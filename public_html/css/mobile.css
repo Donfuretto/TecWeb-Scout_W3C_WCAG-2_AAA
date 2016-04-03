@@ -1,0 +1,184 @@
+*{
+     font-family: "Verdana", Geneva, sans-serif;
+     font-size: 1em;
+    
+}
+
+body{
+    width: 98%;
+    border-bottom-style: none;
+    border-width: inherit;
+}
+
+
+#header{
+       display: block;
+}
+
+
+#header h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#header h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.HeaderIMG
+{
+    width: 40%;  
+}
+
+
+.social{
+    width: 13%;
+    height: 13%;
+    margin-right: 5px;
+}
+
+
+#subhead{
+    display: block;
+    background-color: #b23524;
+    color: #FFFFFF;
+    font-size: 1em;
+     font-weight: lighter;
+    padding: 0.1em 0.1em;
+        
+}
+
+
+#menu{
+    float: none; 
+    right: 999px;
+    width: 95%;
+    padding-left: 0.1em;
+    padding-top: 1em;
+    padding-right: 0.1em;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.help_nav
+{
+    display: block;
+    position: relative;
+    left: -0.3em;
+    text-align: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
+   
+}
+
+#container.help_nav{
+    position: relative;
+    left: 2em;
+}
+
+#corpo .lista .help_nav{
+    position: relative;
+    left: 2em;  
+}
+
+
+
+#iscrizioni{
+     width: 95%;
+    display: block;
+    float: none;
+    padding-left: 0.1em;
+    padding-top: 1em;
+    padding-right: 0.1em;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+
+#news{
+    display: block;
+    text-align: right;
+    width: 98%;
+    padding: 0em;
+    margin-top: 0em;
+    margin-right: 0.25em;
+}  
+
+
+
+
+
+#corpo{
+    display: block;
+    border-width: inherit;
+    float: none;
+    width: 90%;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: justify;
+    margin: auto; 
+    font-size: 1em;  
+}
+
+#corpo h1{
+    font-size: 2em;
+}
+
+#corpo h2{
+    font-size: 2em;
+}
+
+#corpo h3{
+    font-size: 1.5em;
+    margin-top: 0.2em;
+    padding-top: 0em;
+}
+
+.corpoIMG{
+    width: 70%;
+    height: 54%;
+    left: 10%;    
+}
+
+.lista{
+    width: 95%;
+    padding-left: 0em;
+    margin-left: 0em;
+    list-style-type: none;
+}
+
+.lista h2{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.lista h3{
+    font-size: 1.2em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+            
+}
+
+#categorie{
+    list-style-type: circle;
+}
+
+#categorie li{
+   margin-bottom: 0.4em;
+}
+
+
+table .tab{
+    width: 80%;
+}
+
+
+
+
+
+
